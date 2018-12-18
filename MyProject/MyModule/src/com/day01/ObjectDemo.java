@@ -46,6 +46,13 @@ public class ObjectDemo {
         System.out.println("你好");
         System.out.println("我是郭栋");
         System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
+        System.out.println("我是郭栋");
 
 
     }
