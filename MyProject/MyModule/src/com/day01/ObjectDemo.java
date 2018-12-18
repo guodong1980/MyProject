@@ -41,9 +41,18 @@ package com.day01;
 
 public class ObjectDemo {
     public static void main(String[] args) {
+        int a = 10;
+        System.out.println(a);
         System.out.println("你好");
         System.out.println("我是郭栋");
-        System.out.println("我是郭慧");
+        System.out.println("我是郭栋");
+        System.out.println("你是谁");
+        System.out.println("你是谁");
+        System.out.println("你是谁");
+        System.out.println("你是谁");
+        System.out.println("你是谁");
+        System.out.println("你是谁");
+
 
     }
 
