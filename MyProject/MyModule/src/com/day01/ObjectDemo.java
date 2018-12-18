@@ -43,6 +43,7 @@ public class ObjectDemo {
     public static void main(String[] args) {
 
        System.out.println("我是中国人");
+       System.out.println("我是中国人");
 
 
     }
