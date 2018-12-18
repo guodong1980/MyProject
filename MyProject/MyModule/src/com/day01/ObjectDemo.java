@@ -44,6 +44,7 @@ public class ObjectDemo {
 
        System.out.println("我是中国人");
        System.out.println("我是中国人");
+       System.out.println("我是中国人");
 
 
     }
