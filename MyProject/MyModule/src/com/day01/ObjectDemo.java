@@ -36,6 +36,7 @@ package com.day01;
  * @since: 1.0.0
  * @Author:guodong
  * @Date:2018-12-17
+ *
  */
 
 
@@ -43,9 +44,7 @@ public class ObjectDemo {
     public static void main(String[] args) {
 
         System.out.println("我是中国人");
-        System.out.println("我是中国人");
-        System.out.println("我是中国人");
-        System.out.println("我是中国人");
+     
         System.out.println("我是郭栋");
         System.out.println("我是郭栋");
 
