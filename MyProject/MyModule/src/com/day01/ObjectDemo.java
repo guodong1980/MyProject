@@ -36,8 +36,6 @@ package com.day01;
  * @since: 1.0.0
  * @Author:guodong
  * @Date:2018-12-17
- * jasl;dfjds
- * wo shi guodong
  */
 
 
