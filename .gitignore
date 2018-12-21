@@ -7,5 +7,3 @@
 *.iml
 out
 gen
-.gitignore
-/MyProject/MyModule/src/com/day01/ObjectDemo.java
