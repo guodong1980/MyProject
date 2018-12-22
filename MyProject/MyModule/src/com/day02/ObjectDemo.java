@@ -1,4 +1,4 @@
-package com.day01;
+package com.day02;
 
 /**
  @author 郭栋
