@@ -9,7 +9,6 @@ package com.day01;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("我是郭栋");
-        System.out.println("你好,世界!");
         System.out.println("Hello Java");
     }
 }
