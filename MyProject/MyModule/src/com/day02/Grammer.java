@@ -22,6 +22,16 @@ package com.day02;
  *      7)char: 只能表示单字符,不能表示多字符,如 char c = 'd',不能是char c = 'ab';
  *              可以表示转义字符 char t = '\t'
  *      8)boolean:只取值false,true,默认是false
+ * 5.变量之间的运算:(char,byte,short,int,long,float,double)
+ *   (1)自动类型转换:当容量小的数据类型与容量大的类型做运算时,容量小的自动转换为容量大的
+ *      1)byte,short,char之间做运算时,自动转换成int类型运行,char,byte,short==>int==>float==>double
+ *      2)浮点类型运算时先转换成double类型再运算
+ *      3)整形与浮点型运算,自动转换成浮点型运算
+ *   (2)强制类型转换:容量大的转换成容量小的,要使用强制类型转换符(),如 int a = (int)3.14
+ *      1)会导致精度损失
+ *      2)"+"是连接成字符串 String ss = "abc" + 134;
+ *
+ *
  *
  *
  *
@@ -42,6 +52,7 @@ public class Grammer {
     public static void main(String[] args) {
         int myInt = 1;
         System.out.println("myInt = " + myInt);
+        System.out.println("abc" + 123.5);
         boolean b = true;
         if (b) {
             System.out.println("正确");
