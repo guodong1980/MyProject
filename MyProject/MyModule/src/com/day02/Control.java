@@ -9,6 +9,15 @@ package com.day02;
  *      3)if(条件判断){ }else if(条件判断){ }...else{ }
  *         如果多个条件之间存在"包含关系",要求范围小的写在范围大的上面
  *   (2)switch-case
+ *      1)格式:switch(表达式){
+ *               case 常量值1:
+ *                  break;
+ *                    ...
+ *               default:
+ *                  break;
+ *              }
+ *      2)特性:根据表达式的值,选择相应的case去判断,一旦满足case条件,就执行性case的相应的语句,注意case穿透
+ *
  * 3.循环结构:
  *   (1)while
  *   (2)do..while();
