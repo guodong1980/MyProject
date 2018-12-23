@@ -37,6 +37,10 @@ package com.day02;
  *   (4)逻辑运算符:&  |  &&  ||  !  ^
  *   (5)位运算符:<<  >>   >>>  |   &   ~(取反)   ^(异或)
  *   (6)三元运算符:
+ *      1)格式:(条件表达式) ? 表达式1 : 表达式2;===>表达式1与表达式2是同种类型,一定有运算结果
+ *      2)例子:String str = ( i > j) ? "i大" : "j大"
+ *      3)特征:三元运算符在一定程度上可以if-else互换
+ *   (7)
  *
  *
  *
@@ -61,12 +65,19 @@ public class Grammer {
         int myInt = 1;
         System.out.println("myInt = " + myInt);
         System.out.println("abc" + 123.5);
-        boolean b = true;
-        if (b) {
+        boolean b1 = true;
+        if (b1) {
             System.out.println("正确");
-        }else {
+        } else {
             System.out.println("错误");
         }
+        //如何使用三元运算符,输出三个数最大值
+        int a = 40;
+        int b = 50;
+        int c = 60;
+        int temp = (a > b) ? a : b;
+        int reslut = (c > temp) ? c : temp;
+        System.out.println("reslut = " + reslut);
 
 
     }
