@@ -35,6 +35,23 @@ package com.day02;
  */
 public class Control {
     public static void main(String[] args) {
+        //switch语句
+        String weather = "春天";
+        switch (weather) {
+            case "春天" :
+                System.out.println("现在是春天");
+                break;
+            case "夏天":
+                System.out.println("现在是夏天");
+                break;
+            case "秋天":
+                System.out.println("现在是秋天");
+                break;
+            default:
+                System.out.println("现在只能是冬天");
+        }
+
+
 
     }
 }
