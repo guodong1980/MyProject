@@ -23,9 +23,11 @@ package com.day02;
  *      3)表达式类型:只能是 char  byte  short  int  枚举  String
  *
  * 3.循环结构:
- *   (1)while
+ *   (1)while(){}
  *   (2)do..while();
  *   (3)for(;;){ }
+ *      1)格式:for(初始条件;循环条件;迭代条件)  {循环体}
+ *      2)执行过程:初始条件-->循环条件-->循环体-->循环条件-->循环体-->....
  *
  *
  *
@@ -37,7 +39,7 @@ public class Control {
         //switch语句
         String weather = "春天";
         switch (weather) {
-            case "春天" :
+            case "春天":
                 System.out.println("现在是春天");
                 break;
             case "夏天":
@@ -49,8 +51,24 @@ public class Control {
             default:
                 System.out.println("现在只能是冬天");
         }
+        shuixianhua();
 
 
+    }
 
+    //打印三位水仙花数
+    private static void shuixianhua() {
+        for (int i = 100; i < 1000; i++) {
+
+            int j1 = i / 100;//取出百位数
+            int j2 = (i - j1 * 100) / 10;//取出十位数
+            int j3 = i % 10;//取出个位数
+
+            if (i == j1 * j1 * j1 + j2 * j2 * j2 + j3 * j3 * j3) {
+                System.out.println("水仙花数i = " + i);
+            }
+
+
+        }
     }
 }
