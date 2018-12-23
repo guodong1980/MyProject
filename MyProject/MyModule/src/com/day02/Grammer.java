@@ -41,14 +41,6 @@ package com.day02;
  *      2)例子:String str = ( i > j) ? "i大" : "j大"
  *      3)特征:三元运算符在一定程度上可以if-else互换
  *
- *
- *
- *
- *
- *
- *
- *
- *
  */
 
 /**
@@ -76,8 +68,8 @@ public class Grammer {
         int b = 50;
         int c = 60;
         int temp = (a > b) ? a : b;
-        int reslut = (c > temp) ? c : temp;
-        System.out.println("reslut = " + reslut);
+        int result = (c > temp) ? c : temp;
+        System.out.println("result = " + result);
 
 
     }

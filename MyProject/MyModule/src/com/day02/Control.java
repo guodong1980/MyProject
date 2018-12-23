@@ -22,12 +22,10 @@ package com.day02;
  *              当多个case语句具有相同的结果时,可以统一处理
  *      3)表达式类型:只能是 char  byte  short  int  枚举  String
  *
- *
- *
  * 3.循环结构:
  *   (1)while
  *   (2)do..while();
- *   (3)for(;;)
+ *   (3)for(;;){ }
  *
  *
  *
