@@ -19,6 +19,7 @@ package com.day02;
  *      2)特性:根据表达式的值,选择相应的case去判断,一旦满足case条件,就执行性case的相应的语句,注意case穿透
  *              default是可以选的,位置是灵活的
  *              case 值1:其中值1,只能是固定单个值,不能是范围
+ *              当多个case语句具有相同的结果时,可以统一处理
  *      3)表达式类型:只能是 char  byte  short  int  枚举  String
  *
  *
