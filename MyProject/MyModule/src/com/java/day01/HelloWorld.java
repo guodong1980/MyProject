@@ -1,4 +1,4 @@
-package com.day01;
+package com.java.day01;
 
 /*
  * 1.源文件以.java结尾

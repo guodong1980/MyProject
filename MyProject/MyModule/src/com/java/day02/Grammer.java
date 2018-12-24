@@ -1,4 +1,4 @@
-package com.day02;
+package com.java.day02;
 
 /*语法
  * 1.关键字:都以小写字母表示

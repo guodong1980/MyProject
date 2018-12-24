@@ -1,4 +1,4 @@
-package com.day05;
+package com.java.day05;
 
 /**
  @author 郭栋

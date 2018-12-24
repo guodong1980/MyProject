@@ -1,4 +1,4 @@
-package com.day02;
+package com.java.day02;
 
 /*流程控制
  * 1.顺序结构:从上往下
