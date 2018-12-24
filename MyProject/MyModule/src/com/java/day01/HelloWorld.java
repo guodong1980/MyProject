@@ -1,6 +1,6 @@
 package com.java.day01;
 
-/*
+/**
  * 1.源文件以.java结尾
  * 2.源文件中可以有多个class声明的类
  * 3.类中可以有主方法,其格式固定  public static void main(String[] args){}
