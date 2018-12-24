@@ -23,7 +23,8 @@ package com.day02;
  *      3)表达式类型:只能是 char  byte  short  int  枚举  String
  *
  * 3.循环结构:
- *   (1)while(){}
+ *   (1)while(条件判断){}
+ *      1)在无限循环的内部一定要有程序终止的语句break
  *   (2)do..while();
  *   (3)for(;;){ }
  *      1)格式:for(初始条件;循环条件;迭代条件)  {循环体}
