@@ -48,6 +48,20 @@ public class ArrayDemo {
         }
 
         int[][] age1 = new int[2][3];
-        age1[0][3] = 6;//多维数组的复制
+        age1[0][2] = 6;//多维数组的复制
+        System.out.println("-----");
+        getSum();
+    }
+
+    private static void getSum() {
+        int[][] element = new int[][]{{1, 4, 5}, {2, 3}, {7, 8, 3}};
+        int sum = 0;
+        for (int i = 0; i < element.length; i++) {
+            for (int j = 0; j < element[i].length; j++) {
+                System.out.println("element=" + element[i][j] + '\t');
+                sum += element[i][j];
+            }
+        }
+        System.out.println("sum = " + sum);
     }
 }
