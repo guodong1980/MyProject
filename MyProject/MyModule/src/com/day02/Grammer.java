@@ -40,7 +40,6 @@ package com.day02;
  *      1)格式:(条件表达式) ? 表达式1 : 表达式2;===>表达式1与表达式2是同种类型,一定有运算结果
  *      2)例子:String str = ( i > j) ? "i大" : "j大"
  *      3)特征:三元运算符在一定程度上可以if-else互换
- *
  */
 
 /**
@@ -71,8 +70,5 @@ public class Grammer {
         int temp = (a > b) ? a : b;
         int result = (c > temp) ? c : temp;
         System.out.println("result = " + result);
-
-
-
     }
 }

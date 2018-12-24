@@ -30,10 +30,6 @@ package com.day02;
  *      1)格式:for(初始条件;循环条件;迭代条件)  {循环体}
  *      2)执行过程:初始条件-->循环条件-->循环体-->循环条件-->循环体-->....
  *
- *
- *
- *
- *
  */
 public class Control {
     public static void main(String[] args) {
