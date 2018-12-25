@@ -6,7 +6,7 @@ package com.java.day04;
  */
 public class Base {
     //    方法重载(Overload)
-    int id;//编号
+    int id;
     String name;//姓名
 
     public Base(int id, String name) {
