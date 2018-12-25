@@ -27,6 +27,8 @@ package com.java.day03;
  *
  *
  */
+
+
 public class ArrayDemo {
     public static void main(String[] args) {
         int[] age = {45, 56, 60};//静态初始化
