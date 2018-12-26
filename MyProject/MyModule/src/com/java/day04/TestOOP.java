@@ -26,24 +26,12 @@ package com.java.day04;
  *
  *
  *
- */
-
-
-/**
- * 功能描述:
- *
- * @类名:ObjectDemo
- * @since: 1.0.0
- * @Author:guodong
- * @Date:2018-12-17
- *
- *
  *
  *
  */
 
 
-public class ObjectDemo {
+public class TestOOP {
     public static void main(String[] args) {
         System.out.println("你好");
 
