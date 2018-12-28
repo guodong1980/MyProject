@@ -1,12 +1,14 @@
 package com.java.day04;
 
+import com.sun.deploy.panel.ITreeNode;
+
 /**
 @author 郭栋
 @create 2018-12-26
 *面向对象
 * 1.面向对象的编程是类的设计
 * 2.设计类是设计类的成员
-* 3.类的基本成员:属性(成员变量或field)和方法(Method)
+* 3.类的基本成员:属性(成员变量或field)和方法(Method),类中只能有方法和属性,不能有其他内容
 * 4.面向对象的思想
 *      (1)设计类和设计的成员
 *      (2)通过类,来创建类的对象
@@ -20,12 +22,11 @@ package com.java.day04;
 *                      c.成员变量一定有默认的初始化值,局部变量要显示赋值
 *                      d.二者在内存中存放的位置不同:成员存放在堆中,局部在栈中
 * 7.类的方法:提供某种功能的实现
-*        (1)格式:权限修饰符   返回值类型    方法名(形参) {方法体}
+*        (1)格式:权限修饰符   返回值类型(void:无返回值/具体返回值)    方法名(形参) {方法体}
 *        (2)关于返回值类型:
-*
-*
-*
-*
+*           1)void:无返回值
+*           2)有返回值的方法:在方法的最后一定有return + 返回值类型对应的变量
+*        (3)方法中不能再定义另一个方法,但可以调用其他方法
 *
 *
 */
@@ -33,9 +34,20 @@ package com.java.day04;
 
 public class TestOOP {
     public static void main(String[] args) {
-        System.out.println("你好");
+        Person p = new Person();
+        p.name = "小虎";
+        p.age = 10;
+        p.sex = false;
+        p.info();
 
+        System.out.println("-------------");
+        p.showAge();
+        p.study();
+        int newAge = p.addAge();
+        System.out.println("newAge=" + newAge);
 
     }
 
 }
+
+

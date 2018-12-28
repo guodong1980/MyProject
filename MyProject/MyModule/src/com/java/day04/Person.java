@@ -34,4 +34,15 @@ class Person {
         sleep();
         System.out.println("name=" + name + '\t' + "age=" + age + '\t' + "sex=" + sex);
     }
+
+    public void study() {
+        System.out.println("studying");
+    }
+    public void showAge() {
+        System.out.println("age=" + age);
+    }
+    public int addAge(){
+        age+=2;
+        return age;
+    }
 }
