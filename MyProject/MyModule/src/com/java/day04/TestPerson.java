@@ -6,7 +6,7 @@ package com.java.day04;
  *
  *
  */
-class Person {
+class TestPerson {
     //1.属性
     String name;
     int age;

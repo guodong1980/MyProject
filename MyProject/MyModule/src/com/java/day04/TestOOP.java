@@ -1,7 +1,5 @@
 package com.java.day04;
 
-import com.sun.deploy.panel.ITreeNode;
-
 /**
 @author 郭栋
 @create 2018-12-26
@@ -34,7 +32,7 @@ import com.sun.deploy.panel.ITreeNode;
 
 public class TestOOP {
     public static void main(String[] args) {
-        Person p = new Person();
+        TestPerson p = new TestPerson();
         p.name = "小虎";
         p.age = 10;
         p.sex = false;
@@ -45,6 +43,11 @@ public class TestOOP {
         p.study();
         int newAge = p.addAge();
         System.out.println("newAge=" + newAge);
+
+        System.out.println("-----------");
+        TestCircle testCircle = new TestCircle(2.0);
+        double area = testCircle.getArea();
+        System.out.println("面积=" + area);
 
     }
 
