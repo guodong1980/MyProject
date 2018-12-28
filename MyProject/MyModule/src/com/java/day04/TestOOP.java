@@ -45,7 +45,7 @@ public class TestOOP {
         System.out.println("newAge=" + newAge);
 
         System.out.println("-----------");
-        TestCircle testCircle = new TestCircle(4.0);
+        TestCircle testCircle = new TestCircle(7.0);
         double area = testCircle.getArea();
         System.out.println("面积=" + area);
 
