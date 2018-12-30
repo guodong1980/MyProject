@@ -8,15 +8,15 @@ package com.java.day04;
  *
  *
  */
-public class TestCircle {
+public class Circle {
     double radius;//定义半径
-    public final double PI=3.14;
+    //public final double PI=3.14;
 
     public double getArea(){
-        return PI * radius * radius;
+        return Math.PI * radius * radius;
     }
 
-    public TestCircle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 }

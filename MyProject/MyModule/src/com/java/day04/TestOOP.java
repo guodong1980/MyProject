@@ -26,9 +26,10 @@ package com.java.day04;
 *           2)有返回值的方法:在方法的最后一定有return + 返回值类型对应的变量
 *        (3)方法中不能再定义另一个方法,但可以调用其他方法
 * 8.方法的重载(overload):
- *        (1)条件:a.同一个类中 b.方法名必须相同 c.方法的参数列表不同(个数,类型,顺序)
- *                d.和方法的返回值没有关系 e.方法体中的内容不同
-*
+*        (1)条件:a.同一个类中 b.方法名必须相同 c.方法的参数列表不同(个数,类型,顺序)
+*                d.和方法的返回值没有关系 e.方法体中的内容不同
+* 9.匿名类对象:创建类的对象是匿名的,
+ *        (1)当我们只需要一次调用类的对象时,只需要一次
 */
 
 
@@ -47,8 +48,8 @@ public class TestOOP {
         System.out.println("newAge=" + newAge);
 
         System.out.println("-----------");
-        TestCircle testCircle = new TestCircle(7.0);
-        double area = testCircle.getArea();
+        Circle circle = new Circle(7.0);
+        double area = circle.getArea();
         System.out.println("面积=" + area);
 
         System.out.println("-----------");
