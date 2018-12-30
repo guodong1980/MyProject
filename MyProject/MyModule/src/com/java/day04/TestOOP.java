@@ -59,14 +59,5 @@ public class TestOOP {
 
     }
 }
-class TestOverload {
-    public void overLoad(int a) {
-        System.out.println("这是一个重载的方法");
-    }
-    public void overLoad(String b) {
-        System.out.println("这是要给重载的新方法");
-
-    }
-}
 
 
