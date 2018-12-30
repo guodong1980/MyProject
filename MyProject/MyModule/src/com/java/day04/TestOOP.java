@@ -29,7 +29,23 @@ package com.java.day04;
 *        (1)条件:a.同一个类中 b.方法名必须相同 c.方法的参数列表不同(个数,类型,顺序)
 *                d.和方法的返回值没有关系 e.方法体中的内容不同
 * 9.匿名类对象:创建类的对象是匿名的,
- *        (1)当我们只需要一次调用类的对象时,只需要一次
+*        (1)当我们只需要一次调用类的对象时,只需要一次
+*        (2)特点:创建的匿名类对象只能调用一次
+* 10.可变个数的形参
+*       (1)格式:对于方法的形参,数据类型 ... 形参名
+*       (2)可变个数的形参的方法与同名的方法之间构成重载
+*       (3)可变个数的形参在调用时, 个数从0开始,到无穷多个都可以
+*       (4)使用可变多个形参的方法与方法的形参数组是一致的
+*       (5)若方法钟存在可变个数的形参一定申明形参列表中最后
+*       (6)在一个方法中,最多申明一个可变个数形参
+* 11.方法的参数传递
+*       (1)形参:方法申明时,方法小括号内的参数
+*       (2)实参:调用方法时,实际传入的参数
+*       (3)规则:java中的参数传递,是值传递,
+*
+*
+*
+*
 */
 
 
@@ -57,8 +73,30 @@ public class TestOOP {
         testOverload.overLoad(6);
         testOverload.overLoad("");
 
+        System.out.println("-----------");
+        //可变形参
+        testArgs();
+        testArgs("小虎");
+        testArgs("小王", "小李");
+
 
     }
+
+    public static void testArgs() {
+        System.out.println("无参方法");
+    }
+
+    public static void testArgs(String args) {
+        System.out.println("有一个参数" + args);
+    }
+
+    public static void testArgs(String... args) {
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("可变参数形参" + args[i]);
+        }
+    }
 }
+
+
 
 
