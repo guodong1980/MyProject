@@ -23,7 +23,14 @@ package com.java.day05;
  *   (1)成员变量的默认初始化
  *   (2)成员变量的显示初始化
  *   (3)通过构造器给成员变量初始化对象
- *
+ * 5.this关键字
+ *   (1)修饰范围:成员变量 方法 构造器
+ *   (2)this可以理解为当前对象或当前正在创建的对象
+ *   (3)构造器中可以使用this(形参),可以用来显示的当前类的重载的其它构造器且要写在构造器中的首行
+ * 6.JavaBean
+ *   (1)package:声明源文件所在的包,一定要放第一行,每"."一次,表示一层文件目录,包名都要小写
+ *   (2)import:显示的导入指定包下类或接口,需要引入多个类并列写出,lang包不需要引入,
+ *             improt static指导入指定类的static的属性或方法
  */
 public class OOPFeature {
     public static void main(String[] args) {
