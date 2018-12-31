@@ -4,13 +4,14 @@ import java.util.SplittableRandom;
 
 /**
  * Created with IntelliJ IDEA.
- * Description: 
+ * Description:
  * User: guodong
  * Date: 2018-12-30
  */
 class Person {
     private int age;
     private String  name;
+    int id;
 
 
     Person(int age,String name) {

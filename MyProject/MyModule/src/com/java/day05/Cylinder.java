@@ -29,6 +29,6 @@ public class Cylinder extends Circle {
 
     //计算圆柱体积
     public double findVoulme() {
-        return findArea() * length;
+        return super.findArea() * length;
     }
 }
