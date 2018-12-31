@@ -18,6 +18,14 @@ class Person {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getAge() {
         return age;
     }
@@ -25,8 +33,12 @@ class Person {
     public Person(String name) {
         this.name = name;
     }
-
-
+    public void eat() {
+        System.out.println("吃饭");
+    }
+    public void walk() {
+        System.out.println("走路");
+    }
     public void setAge(int age) {
         if (age > 0 && age < 130) {
             this.age = age;

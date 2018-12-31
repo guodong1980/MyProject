@@ -31,6 +31,24 @@ package com.java.day05;
  *   (1)package:声明源文件所在的包,一定要放第一行,每"."一次,表示一层文件目录,包名都要小写
  *   (2)import:显示的导入指定包下类或接口,需要引入多个类并列写出,lang包不需要引入,
  *             improt static指导入指定类的static的属性或方法
+ * 7.继承:
+ *   (1)格式:通过"class A(子类) extends B(父类)"类实现类的继承
+ *   (2)子类继承父类以后,父类中声明的属性,方法,子类都可以使用
+ *   (3)当父类中有私有的属性或方法时,子类同样可以获得,但由于封装,使子类不可以直接调用
+ *      子类除了通过继承,获取父类的结构外,还可以定义自己的特有成分
+ *   (4)子类是父类的扩展不是子集
+ *   (5)java是单继承,不能多继承
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 public class OOPFeature {
     public static void main(String[] args) {
@@ -38,5 +56,8 @@ public class OOPFeature {
         p.setAge(16);
 
         System.out.println("设置的值是 = " + p.getAge());
+        System.out.println("------------");
+        Work work = new Work(18,"小红");
+        work.info();
     }
 }
