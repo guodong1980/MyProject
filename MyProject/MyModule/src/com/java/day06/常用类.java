@@ -11,6 +11,13 @@ package com.java.day06;
  *       1)==:两端是基本数据类型比较的是本身值,两端是引用类型比较的是地址值是否相等
  *       2)equals方法: a.只能处理引用类型比较,不能处理基本类型比较
  *                     b.String类,包装类,file类,Date类,这些类重写了Object类的equals()方法,比较对象的实体内容是否相同
- *　　　
+ *　2.String类
+ *    (1)
+ *  　　
  *
  */
+
+
+public class 常用类 {
+
+}
