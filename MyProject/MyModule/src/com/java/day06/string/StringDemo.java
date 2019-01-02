@@ -1,4 +1,4 @@
-package com.java.day06;
+package com.java.day06.string;
 
 /**
  * User: guodong

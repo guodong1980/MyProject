@@ -1,4 +1,4 @@
-package com.java.day06;
+package com.java.day06.object;
 
 /**
  * Created with IntelliJ IDEA.
