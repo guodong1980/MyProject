@@ -16,8 +16,17 @@ package com.java.day06;
  *       2)当打印对象所在的类没有重写object中的toString()方法时,那么调用的就是Object中定义的toString()方法
  *       3)当我们打印的对象所在的类重写了toString()方法时,调用的就是我们重写的toString()方法
  *　2.String类
- *    (1)
- *  　　
+ *  3.包装类(Wrapper) 　　
+ *    (1)种类:
+ *       boolean     Boolean
+ *       byte        Byte
+ *       short       Short
+ *       int         Integer
+ *       char        Character
+ *       float       Float
+ *       double      Double
+ *
+ *
  *
  */
 
