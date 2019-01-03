@@ -25,6 +25,13 @@ package com.java.day06;
  *       char        Character
  *       float       Float
  *       double      Double
+ *    (2)转换:基本类型--->包装类  Float f1 = new Float(float类型)
+ *            包装类--->基本类型  float f2 = Float.floatValue();
+ *    (3)JDk5.0以后,自动装箱和拆箱: Float f3 = 6.0(自动装箱); float f4 = f3(自动拆箱);
+ *    (4)基本数据类型,包装类--->String类:调用String类的静态重载方法valueOf(Xxx x)方法
+ *                              如:String str = String.valueOf(10);
+ *    (5)String类--->基本数据类型,包装类:调用包装类.parseXxx(String str)方法
+ *                              如:int i = Integer.parseInt(str3)
  *
  *
  *

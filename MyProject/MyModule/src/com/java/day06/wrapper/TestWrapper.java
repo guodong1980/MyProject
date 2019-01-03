@@ -16,5 +16,14 @@ public class TestWrapper {
         System.out.println("i1=" + i1);
     }
 
+    @Test
+    public void testIntToString() {
+        int i1 = 10;
+        String str1 = i1 + "";
+        String str2 = String.valueOf(40);
+        System.out.println(str2);
+
+    }
+
 
 }
