@@ -22,7 +22,6 @@ public class TestWrapper {
         String str1 = i1 + "";
         String str2 = String.valueOf(40);
         System.out.println(str2);
-        System.out.println("");
 
     }
 
