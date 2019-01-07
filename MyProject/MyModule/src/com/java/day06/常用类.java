@@ -38,6 +38,3 @@ package com.java.day06;
  */
 
 
-public class 常用类 {
-
-}
